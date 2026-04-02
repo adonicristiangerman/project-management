@@ -7,7 +7,7 @@ export default function ProjectSidebar({ onStartAddProject, projects }) {
         Your Projects
       </h2>
       <div>
-        <Button forWhat="+ Add Project" onClick={onStartAddProject} />
+        <Button onClick={onStartAddProject}>+ Add Project</Button>
       </div>
       <ul className="mt-8">
         {projects.map((project) => (
